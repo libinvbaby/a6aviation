@@ -21,6 +21,8 @@
 .navbar{
     position: absolute;
     border-bottom: 1px solid #fff;
+   background-color: #292E81;
+
 }
 .nav-link{
     font-family:'Mainlux-Light';
@@ -73,11 +75,11 @@
 }
 
 .slide-2 {
-    background-image: url(../images/banners/Banner-four.jpg);
+    background-image: url(../images/banners/banner-four.jpg);
 }
 
 .slide-3 {
-    background-image: url(../images/banners/Banner-three.jpg);
+    background-image: url(../images/banners/banner-three.jpg);
 }
 
 .slide-content {
