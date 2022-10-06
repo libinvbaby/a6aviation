@@ -1,0 +1,266 @@
+@font-face {
+    font-family: "Mainlux-Light";
+    src: url("./fonts/Mainlux-Light.otf")
+  }
+@font-face {
+    font-family: "GTSuperDisplay-Light";
+    src: url("./fonts/GT\ Super\ Display\ Light.ttf")
+  }
+@font-face {
+    font-family: "GTSuperDisplay-Regular";
+    src: url("./fonts/GT\ Super\ Display\ Regular.ttf")
+  }
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.navbar{
+    position: absolute;
+    border-bottom: 1px solid #fff;
+}
+.nav-link{
+    font-family:'Mainlux-Light';
+    font-size:18px;
+    
+}
+.nav-item a{
+    color:#fff;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #D9B620 !important;
+}
+.nav-item a:hover{
+    color:#D9B620;
+}
+.nav-item a:active{
+    color:#D9B620;
+}
+.my-nav{
+    position:absolute;
+    z-index: 999;
+}
+
+.owl-carousel {
+    width: 100%;
+    height: 100vh;
+}
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slide-1 {
+    background-image: url(../images/banners/Banner-one.jpg);
+}
+
+.slide-2 {
+    background-image: url(../images/banners/Banner-four.jpg);
+}
+
+.slide-3 {
+    background-image: url(../images/banners/Banner-three.jpg);
+}
+
+.slide-content {
+    
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    color: #fff;
+    padding: 0 10%;
+}
+
+.slide-content h1 {
+    font-family: "Mainlux-Light";
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.slide-content p {
+    font-family: "Mainlux-Light";
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.highlight{
+    color:#D9B620
+}
+
+.owl-dots {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 1%;
+}
+
+.owl-dots span {
+    width: 10px !important;
+    height: 10px !important;
+}
+.bg-plane{
+    padding-top:0px;
+    background-image: url(../images/plane-bg.png);
+    background-size:cover;
+    padding: 150px 0 200px 0;
+    margin-top: -41px;
+}
+.title{
+    font-family: "GTSuperDisplay-Light";
+    font-size:50px;
+    color:#292E81;
+   
+}
+.subtitle{
+    font-family: "Mainlux-Light";
+    font-size: 18px;
+    color: #D9B620;
+}
+.description{
+    text-align: justify; 
+    font-family: "Mainlux-Light";
+}
+.rectangle{
+    
+    background-color: #292E81;
+    width:293px;
+    height: 225px;
+    position: relative;
+    top:100px;
+    left:200px;
+    text-align: center;
+    padding-top:60px;
+    font-family: "Mainlux-Light";
+    color: #fff;
+}
+.titles{
+    background:url(../images/title-background.png) no-repeat center;
+
+}
+.contact{
+    padding:100px 0;
+    background-color:     rgba(203, 175, 52, 0.1);
+    
+}
+.title-contact{
+    font-family:"Mainlux-Light";
+    color:#292E81;
+
+}
+.form-control-new, .form-select-new{
+    font-family:"Mainlux-Light";
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 1px solid #CBAF34;
+    padding:10px 20px;
+    color:#000;
+}
+.btn-send{
+ background-color:#292E81;
+ color:#fff;
+ width:150px;
+ height:50px;   
+ border-radius:10px;
+ border: none;
+ outline: none;
+}
+.btn-service{
+    font-family: "Mainlux-Light";
+    font-size:18px;
+    color:#D9B620;
+    background:none;
+    border-top: none;
+    border-bottom: 1px solid #D9B620;
+    border-left: none;
+    border-right: none;
+}
+.card{
+    width: 318px !important;
+    height: 505px !important;
+    border: 10px solid #F1EEE3 !important;
+    border-radius: 196px !important;
+    outline: none !important;
+    padding:10px;
+}
+.card-one{
+    border-radius: 200px;
+    border: none;
+    padding-top:300px;
+    outline: none;
+    background-image: url(../images/business-class.jfif);
+    background-size:contain;
+    overflow: hidden;
+}
+.hover{
+    display: none;
+}
+
+.sevice-text{
+    font-family:'"Mainlux-Light"';
+    padding:50px;
+    background: #292E81;
+    color:#fff;
+   
+    
+}
+.explore{
+    background:url(../images/wings.png);
+    background-color: #fff;
+    background-size: cover;
+    padding:100px 0px;
+
+}
+.viewmore{
+    font-family: "Mainlux-Light";
+    font-size:18px;
+    color:#D9B620;
+    background:none;
+    border-top: none;
+    border: none;
+    }
+    .charterservices{
+        font-family: "Mainlux-Light";
+        color: #C3BDA1;
+        letter-spacing: 3.2px;
+
+    }
+    .news-title{
+        color:#292E81;
+        font-family: "Mainlux-Light";
+    }
+
+    .author{
+        color:#CBAF34
+    }
+
+    .footer{
+        background:#26296A;
+    }
+    .footerlist{
+        color:#fff;
+        font-family: "Mainlux-Light";
+    }
+    .rights{
+        font-size: 10px;
+        color:#fff;
+        font-family: "Mainlux-Light";
+    }
